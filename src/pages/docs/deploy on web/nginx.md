@@ -1,6 +1,6 @@
 ---
-name: Redirects
-route: /docs/deploy/setup-database
+name: Nginx
+route: /docs/deploy/nginx
 ---
 
 ## Run Nginx

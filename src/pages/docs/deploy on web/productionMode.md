@@ -1,6 +1,6 @@
 ---
-name: Setup Database
-route: /docs/deploy/setup-database
+name: Production Mode
+route: /docs/deploy/production-mode
 ---
 
 ## Turn off Developer Mode

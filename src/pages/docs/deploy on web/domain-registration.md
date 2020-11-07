@@ -1,6 +1,6 @@
 ---
-name: Redirects
-route: /docs/deploy/setup-database
+name: Domain Registration
+route: /docs/deploy/domain-registration
 ---
 
 ## Register domain

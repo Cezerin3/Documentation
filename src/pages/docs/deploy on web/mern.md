@@ -1,6 +1,6 @@
 ---
-name: Redirects
-route: /docs/deploy/setup-database
+name: Mern
+route: /docs/deploy/mern
 ---
 
 ## Install NGinx Web Server + MERN Stack

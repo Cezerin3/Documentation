@@ -1,6 +1,6 @@
 ---
-name: Redirects
-route: /docs/deploy/setup-database
+name: digitalocean
+route: /docs/deploy/digitalocean
 ---
 
 ## Setup domain with DigitalOcean DNS

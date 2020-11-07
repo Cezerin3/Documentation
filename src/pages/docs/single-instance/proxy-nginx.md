@@ -1,6 +1,6 @@
 ---
-name: Redirects
-route: /docs/nginx
+name: Proxy Nginx
+route: /docs/proxy-nginx
 ---
 
 # Single Instance cezerin3-proxy nginx config

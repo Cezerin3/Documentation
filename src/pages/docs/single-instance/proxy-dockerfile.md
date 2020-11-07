@@ -1,9 +1,9 @@
 ---
-name: Redirects
-route: /docs/setup-database
+name: Proxy Dockerfile
+route: /docs/proxy-dockerfile
 ---
 
-# Single Instance cezerin2-proxy dockerfile and docker-entrypoint.sh
+# Single Instance cezerin3-proxy dockerfile and docker-entrypoint.sh
 
 - [dockerfile](#dockerfile)
 - [docker-entrypoint.sh](#docker-entrypoint.sh)

@@ -1,6 +1,6 @@
 ---
-name: Getting Started
-route: /deploy/cezerin-configs
+name: Cezerin Configs
+route: /docs/deploy/cezerin-configs
 ---
 
 ## Cezerin configs changes:

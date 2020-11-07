@@ -14,7 +14,7 @@ cd /var/www
 - **Clone Git repository**
 
 ```shell
-git clone https://github.com/cezerin2/cezerin2
+git clone https://github.com/Cezerin3/Store
 cd cezerin2
 ```
 
@@ -41,7 +41,7 @@ cd config
 - **Install dependencies**
 
 ```shell
-npm i
+yarn
 ```
 
 - **Setup database**
@@ -49,7 +49,7 @@ npm i
 Prepare database. At this step our database is empty. To add default data (categories, products, pages), indexes and access token we need to run:
 
 ```shell
-npm run setup <email> <domain>
+yarn setup <email> <domain>
 ```
 
 We don't have real domain, so we'll use our local domain:
@@ -63,7 +63,7 @@ You can change this email and domain anytime at Dashboard - Settings - General -
 - **Build project**
 
 ```shell
-npm run build
+yarn build
 ```
 
 - **Start application in the background**
@@ -82,7 +82,7 @@ If all is fine, you can see somethng like this, status column must be online. No
 
 ```shell
 ┌────┬────────────────────┬──────────┬──────┬───────────┬──────────┬──────────┐
-│ id │ name               │ mode     │ ↺    │ status    │ cpu      │ memory   │
+│ id │ name               │ mode     │ O    │ status    │ cpu      │ memory   │
 ├────┼────────────────────┼──────────┼──────┼───────────┼──────────┼──────────┤
 │ 0  │ api                │ fork     │ 2    │ online    │ 5.6%     │ 139.5mb  │
 │ 1  │ store              │ fork     │ 3    │ online    │ 6.8%     │ 134.2mb  │
