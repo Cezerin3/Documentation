@@ -10,7 +10,7 @@ route: /docs/howtos
 1. Do it first
 
 ```javascript
-npm install --save-dev nodemon
+yarn add -D nodemon
 ```
 
 2. Then add
@@ -26,9 +26,9 @@ in the script section file package.json
 4. execute commands (each in a separate terminal)
 
 ```javascript
-npm run build:watch
-npm run start-api
-npm run start:dev
+yarn build:watch
+yarn start-api
+yarn start:dev
 ```
 
 nodemon views file change and restarts the store
