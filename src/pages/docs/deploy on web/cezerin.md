@@ -1,6 +1,6 @@
 ---
-name: Redirects
-route: /docs/deploy/setup-database
+name: cezerin
+route: /docs/deploy/cezerin
 ---
 
 ## Install and Run Cezerin
@@ -19,7 +19,7 @@ pm2 list all
 ```
 root@ubuntu-s-1vcpu-1gb-nyc3-01:~# pm2 list all
 ┌───────┬────┬────────┬────────┬────────┬─────┬────────┬────────────┐
-│ Name  │ id │ mode   │ status │ ↺      │ cpu │ memory │
+│ Name  │ id │ mode   │ status │ O      │ cpu │ memory │            |
 ├───────┼────┼────────┼────────┼────────┼─────┼────────┼────────────┤
 │ api   │ 0  │ 0.33.0 │ fork   │ online │ 1   │ 0%     │ 139.4 MB   │
 │ store │ 1  │ 0.33.0 │ fork   │ online │ 2   │ 0%     │ 136.4 MB   │

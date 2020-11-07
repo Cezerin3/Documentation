@@ -1,6 +1,6 @@
 ---
-name: Redirects
-route: /docs/deploy/setup-database
+name: final-checks
+route: /docs/deploy/final-checks
 ---
 
 ## Final checks

@@ -1,6 +1,6 @@
 ---
-name: Setup Database
-route: /docs/deploy/setup-database
+name: Hosting
+route: /docs/deploy/hosting
 ---
 
 ## Hosting

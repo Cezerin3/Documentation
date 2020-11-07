@@ -1,6 +1,6 @@
 ---
-name: Redirects
-route: /docs/deploy/setup-database
+name: SSL Certificate
+route: /docs/deploy/lets-encrypt
 ---
 
 ## Setup Let's Encrypt SSL Certificate

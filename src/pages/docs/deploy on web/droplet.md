@@ -1,6 +1,6 @@
 ---
-name: Redirects
-route: /docs/deploy/setup-database
+name: Droplet
+route: /docs/deploy/droplet
 ---
 
 ## Create droplet

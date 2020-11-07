@@ -1,6 +1,6 @@
 ---
-name: Redirects
-route: /docs/deploy/setup-database
+name: Cloudflare
+route: /docs/deploy/cloudflare
 ---
 
 ## Setup domain with CloudFlare
