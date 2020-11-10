@@ -14,7 +14,8 @@ menu: Installation Guides
 
 ### Setup
 
-- follow mongo [instructions](https://docs.mongodb.com/manual/installation/) to install locally.
+- follow mongo [instructions](https://docs.mongodb.com/manual/installation/) to
+  install locally.
 - run `mongod`
 
 ## 2. Docker Mongo
@@ -30,8 +31,8 @@ menu: Installation Guides
 
 ### Implementation
 
-- **Docker**
-  You are required to link to the database image and set it to the DB_HOST.
+- **Docker** You are required to link to the database image and set it to the
+  DB_HOST.
 
   ```shell
   --link store-db:db \
@@ -50,14 +51,14 @@ menu: Installation Guides
   cezerin2/cezerin2:latest
   ```
 
-- **pm2**
-  You will be required to expose the port in the docker command.
+- **pm2** You will be required to expose the port in the docker command.
 
   ```shell
   -p 27017:27017
   ```
 
-  Then you can Deloy normally with pm2. [here](https://cezerin.org/docs/#/using-source-code)
+  Then you can Deloy normally with pm2.
+  [here](https://cezerin.org/docs/#/using-source-code)
 
   ```shell
   pm2 start app.js
@@ -95,18 +96,20 @@ menu: Installation Guides
     - Select: `Connect Your Application`
     - Select Driver: `nodejs`
     - Select Version: `3.0 or later`
-    - Copy connection string: `mongodb+srv://cezerin:<password>@cezerin-db-0ga32.mongodb.net/test?retryWrites=true`
+    - Copy connection string:
+      `mongodb+srv://cezerin:<password>@cezerin-db-0ga32.mongodb.net/test?retryWrites=true`
 
   - Update string url
     - change `<password>` to provided password
     - remove `?retryWrites=true` (doesn't support ?)
     - change `test` to database name `shop`
-    - should be like `mongodb+srv://cezerin:cezerin@cezerin-db-0ga32.mongodb.net/shop`
+    - should be like
+      `mongodb+srv://cezerin:cezerin@cezerin-db-0ga32.mongodb.net/shop`
 
 ### Implementation
 
-- **Docker**
-  You are required to referernce the database url in the docker configuration
+- **Docker** You are required to referernce the database url in the docker
+  configuration
 
   ```shell
   -e DB_URL=mongodb+srv://cezerin:cezerin@cezerin-db-0ga32.mongodb.net/shop
