@@ -36,8 +36,8 @@ docker run -d \
 cezerin/cezerin:latest
 ```
 
-Open http://localhost to see your store.  
-Dashboard - http://localhost/admin  
+Open http://localhost to see your store.
+Dashboard - http://localhost/admin
 API - http://localhost
 
 ## Docker Compose
@@ -73,5 +73,5 @@ services:
     restart: always
 ```
 
-`/var/www/store` - folder with Cezerin  
+`/var/www/store` - folder with Cezerin
 `/var/www/store-db` - folder with MongoDB data
