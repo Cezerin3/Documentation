@@ -6,8 +6,9 @@ menu: Deploy on Web
 
 ## Install and Run Cezerin
 
-Follow [this](https://github.com/Cezerin2/cezerin2/blob/master/docs/using-source-code.md) installation guide for local environment.
-All the same for web deploy.
+Follow
+[this](https://github.com/Cezerin2/cezerin2/blob/master/docs/using-source-code.md)
+installation guide for local environment. All the same for web deploy.
 
 [Cezerin Installation Guide.](https://github.com/Cezerin2/cezerin2/blob/master/docs/using-source-code.md)
 

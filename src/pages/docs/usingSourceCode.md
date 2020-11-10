@@ -21,7 +21,8 @@ cd cezerin2
 
 - **Change settings**
 
-- This step is optional. You can skip this step, all works fine with default settings.
+- This step is optional. You can skip this step, all works fine with default
+  settings.
 
 ```shell
 cd config
@@ -47,7 +48,8 @@ yarn
 
 - **Setup database**
 
-Prepare database. At this step our database is empty. To add default data (categories, products, pages), indexes and access token we need to run:
+Prepare database. At this step our database is empty. To add default data
+(categories, products, pages), indexes and access token we need to run:
 
 ```shell
 yarn setup <email> <domain>
@@ -59,7 +61,8 @@ We don't have real domain, so we'll use our local domain:
 npm run setup admin@example.com http://localhost:3000
 ```
 
-You can change this email and domain anytime at Dashboard - Settings - General - Domain and Settings - Personal Access Tokens.
+You can change this email and domain anytime at Dashboard - Settings - General -
+Domain and Settings - Personal Access Tokens.
 
 - **Build project**
 
@@ -79,7 +82,8 @@ Check that is cezerin apps is started fine and online:
 pm2 list all
 ```
 
-If all is fine, you can see somethng like this, status column must be online. Not "error".
+If all is fine, you can see somethng like this, status column must be online.
+Not "error".
 
 ```shell
 ┌────┬────────────────────┬──────────┬──────┬───────────┬──────────┬──────────┐
@@ -98,10 +102,12 @@ pm2 logs
 
 - API running on port 3001 and available at **http://localhost:3001**
 - Storefront running on port 3000 and available at **http://localhost:3000**
-- Dashboard running on port 3000 and available at **http://localhost:3000/admin**
+- Dashboard running on port 3000 and available at
+  **http://localhost:3000/admin**
 
-For example, here is the api method for store settings: **http://localhost:3001/api/v1/settings**
-and dashboard settings page: **http://localhost:3000/admin/settings**
+For example, here is the api method for store settings:
+**http://localhost:3001/api/v1/settings** and dashboard settings page:
+**http://localhost:3000/admin/settings**
 
 ```shell
 [start-api] info: API running at http://localhost:3001

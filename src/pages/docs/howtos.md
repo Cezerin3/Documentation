@@ -36,8 +36,10 @@ nodemon views file change and restarts the store
 
 "build:watch" first builds everything, and then rebuilds only the changed
 
-it does not reload the page in the browser automatically, but significantly speeds up the development process
+it does not reload the page in the browser automatically, but significantly
+speeds up the development process
 
 ### Feel free to add your HowTos.
 
-You can add it by making Pull Request to the https://github.com/Cezerin3/Documentation
+You can add it by making Pull Request to the
+https://github.com/Cezerin3/Documentation

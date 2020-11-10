@@ -35,8 +35,8 @@ P.S. You can change DNS at your domain name control panel.
 
 - Add `A` and `CNAME` records to DigitalOcean DNS.
 
-_Hostname_ - Must be your domain name.
-_Value_ - Must be your droplet ip adddess.
+_Hostname_ - Must be your domain name. _Value_ - Must be your droplet ip
+adddess.
 
 `A` dns record points to our droplet IP address.
 

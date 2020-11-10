@@ -6,16 +6,18 @@ menu: API
 
 # Product Import
 
-A basic Google Spreadsheet product importer is to find in dashboard's Menu -> Products.
+A basic Google Spreadsheet product importer is to find in dashboard's Menu ->
+Products.
 
 ## Setup Product Import
 
 Dashboard General Settings -> Product Import -> Google Spreadsheet
-|Value|Description|
-|--------------------|------|
-| _Google Sheets API Key_ | ..is to find in your own Google Developer Console. Please visit herefor: https://developers.google.com/maps/documentation/javascript/get-api-key |
-| _Sheet ID_ | ..the Sheet ID is in the URL of the created spreadsheet |
-| _Sheet Name_ | ..the Sheet Name is as bottom table tab named of the created spreadsheet |
+|Value|Description| |--------------------|------| | _Google Sheets API Key_ |
+..is to find in your own Google Developer Console. Please visit herefor:
+https://developers.google.com/maps/documentation/javascript/get-api-key | |
+_Sheet ID_ | ..the Sheet ID is in the URL of the created spreadsheet | | _Sheet
+Name_ | ..the Sheet Name is as bottom table tab named of the created spreadsheet
+|
 
 ## Supported Table Attributes
 
@@ -35,5 +37,5 @@ Dashboard General Settings -> Product Import -> Google Spreadsheet
 
 ## Product Images
 
-_Please note:_ The product images have to be uploaded via dashboard's file import:
-Menu -> Files
+_Please note:_ The product images have to be uploaded via dashboard's file
+import: Menu -> Files

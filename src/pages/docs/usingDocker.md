@@ -11,7 +11,8 @@ menu: Installation Guides
 
 ## Docker
 
-We'll use `cezerin/cezerin` image. [About image](https://github.com/cezerin/docker-cezerin).
+We'll use `cezerin/cezerin` image.
+[About image](https://github.com/cezerin/docker-cezerin).
 
 1. Run MongoDB
 
