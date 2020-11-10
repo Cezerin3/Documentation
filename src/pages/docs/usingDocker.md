@@ -1,6 +1,7 @@
 ---
 name: Docker
 route: /docs/using-docker
+menu: Installation Guides
 ---
 
 # Getting Started with Docker
@@ -10,7 +11,8 @@ route: /docs/using-docker
 
 ## Docker
 
-We'll use `cezerin/cezerin` image. [About image](https://github.com/cezerin/docker-cezerin).
+We'll use `cezerin/cezerin` image.
+[About image](https://github.com/cezerin/docker-cezerin).
 
 1. Run MongoDB
 
@@ -34,8 +36,8 @@ docker run -d \
 cezerin/cezerin:latest
 ```
 
-Open http://localhost to see your store.  
-Dashboard - http://localhost/admin  
+Open http://localhost to see your store.
+Dashboard - http://localhost/admin
 API - http://localhost
 
 ## Docker Compose
@@ -71,5 +73,5 @@ services:
     restart: always
 ```
 
-`/var/www/store` - folder with Cezerin  
+`/var/www/store` - folder with Cezerin
 `/var/www/store-db` - folder with MongoDB data

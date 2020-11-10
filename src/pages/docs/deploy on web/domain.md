@@ -1,6 +1,7 @@
 ---
 name: Domain
 route: /docs/deploy/domain
+menu: Deploy on Web
 ---
 
 ## Setup domain

@@ -1,6 +1,7 @@
 ---
 name: Application Structure
 route: /docs/application-structure
+menu: Getting Started
 ---
 
 ## Application Structure

@@ -1,6 +1,7 @@
 ---
 name: Proxy Dockerfile
 route: /docs/proxy-dockerfile
+menu: Single Instance
 ---
 
 # Single Instance cezerin3-proxy dockerfile and docker-entrypoint.sh

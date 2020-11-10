@@ -1,6 +1,7 @@
 ---
 name: Cezerin Configs
 route: /docs/deploy/cezerin-configs
+menu: Deploy on Web
 ---
 
 ## Cezerin configs changes:
@@ -42,4 +43,5 @@ pm2 reload api
 pm2 reload store
 ```
 
-P.S. Example of configs for cezerin.net domain you can download here [cezerin2-demo-config-sample.zip](https://github.com/cezerin2/cezerin2/raw/master/docs/config-samples/cezerin2-demo-config-sample.zip)
+P.S. Example of configs for cezerin.net domain you can download here
+[cezerin2-demo-config-sample.zip](https://github.com/cezerin2/cezerin2/raw/master/docs/config-samples/cezerin2-demo-config-sample.zip)

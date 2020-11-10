@@ -1,6 +1,7 @@
 ---
 name: Mern
 route: /docs/deploy/mern
+menu: Deploy on Web
 ---
 
 ## Install NGinx Web Server + MERN Stack

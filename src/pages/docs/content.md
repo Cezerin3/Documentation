@@ -1,6 +1,7 @@
 ---
 name: Content
 route: /docs/content
+menu: Getting Started
 ---
 
 - Getting Started

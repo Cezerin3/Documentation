@@ -1,18 +1,21 @@
 ---
 name: Production Mode
 route: /docs/deploy/production-mode
+menu: Deploy on Web
 ---
 
 ## Turn off Developer Mode
 
-By default, Cezerin is in developer mode. This means you can access API and Dashboard without authorization (access tokens).
+By default, Cezerin is in developer mode. This means you can access API and
+Dashboard without authorization (access tokens).
 
-Don't forget to switch off developer mode at working store.
-At dev mode api's and dashboard available for all without any restrictions.
+Don't forget to switch off developer mode at working store. At dev mode api's
+and dashboard available for all without any restrictions.
 
 To turn off developer mode, you need to do:
 
-- Add access token while install (npm run setup ...) or add email for admin at Admin - Settings - Web tokens
+- Add access token while install (npm run setup ...) or add email for admin at
+  Admin - Settings - Web tokens
 - Set SMTP server in `cezerin2/config/server.js`
 - Set false for option `developerMode` from `cezerin2/config/server.js`
 - Set false for option `developerMode` from `cezerin2/config/admin.js`
@@ -30,14 +33,16 @@ What is production mode?!
 
 At production mode all requests to api must be authorized with JWT token.
 
-It means nobody can add/edit/delete categories, products, orders, customers, etc. without permission.
+It means nobody can add/edit/delete categories, products, orders, customers,
+etc. without permission.
 
 Only admins can make this.
 
-You must login before you access to admin.
-Login page - https://your-domain-name.com/admin/login
+You must login before you access to admin. Login page -
+https://your-domain-name.com/admin/login
 
-Specify your admin email address and you will receive email with authorization link.
+Specify your admin email address and you will receive email with authorization
+link.
 
 Click to link at email and you will set JWT token at all requests to api.
 
@@ -55,7 +60,8 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZXMiOlsiYWRtaW4iXSwianRpIjoiNWUyY2F
 
 Switch to production mode.
 
-And authorizate to admin with this url example: https://your-domain-name.com/admin/login?token=
+And authorizate to admin with this url example:
+https://your-domain-name.com/admin/login?token=
 
 Insert you key in the URL, like this:
 

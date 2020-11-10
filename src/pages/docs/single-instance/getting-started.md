@@ -1,6 +1,7 @@
 ---
 name: Getting Started
 route: /docs/getting-started
+menu: Getting Started
 ---
 
 # Getting Started with Single Instance
@@ -131,11 +132,9 @@ For local use change
 
 1. Create follow folder structure
 
-   cezerin2-admin # clone cezerin2-admin repo
-   ├── nginx # nginx cezerin2-admin config
-   | ├── nginx.conf # nginx cezerin2-admin config
-   │ └── default.conf # cezerin2-admin dockerfile
-   └── dockerfile # cezerin2-admin dockerfile
+   cezerin2-admin # clone cezerin2-admin repo ├── nginx # nginx cezerin2-admin
+   config | ├── nginx.conf # nginx cezerin2-admin config │ └── default.conf #
+   cezerin2-admin dockerfile └── dockerfile # cezerin2-admin dockerfile
 
 [cezerin2-proxy dockerfile & docker-entrypoint](./cezerin2-proxy-dockerfile.md)
 
@@ -167,21 +166,14 @@ cezerin2-proxy
 
 ## Docker Compose
 
-setup project as:
-.
-├── cezerin2 # clone cererin2 repo
-│ ├── dockerfile # cezerin2 dockerfile
-│ └── docker-entrypoint.sh # cezerin2 docker-entrypoint.sh
-├── cezerin2-admin # clone cezerin2-admin repo
-│ ├── nginx # nginx cezerin2-admin config
-│ | ├── nginx.conf # nginx cezerin2-admin config
-│ │ └── default.conf # cezerin2-admin dockerfile
-│ └── dockerfile # cezerin2-admin dockerfile
-├── cezerin2-store # clone cezerin2-store repo
-│ ├── dockerfile # cezerin2-store dockerfile
-│ └── docker-entrypoint.sh # cezerin2-store docker-entrypoint.sh
-├── proxy # New folder for proxy
-│ └── dockerfile # proxy dockerfile
-└── docker-compose.yml # Tools and utilities
+setup project as: . ├── cezerin2 # clone cererin2 repo │ ├── dockerfile #
+cezerin2 dockerfile │ └── docker-entrypoint.sh # cezerin2 docker-entrypoint.sh
+├── cezerin2-admin # clone cezerin2-admin repo │ ├── nginx # nginx
+cezerin2-admin config │ | ├── nginx.conf # nginx cezerin2-admin config │ │ └──
+default.conf # cezerin2-admin dockerfile │ └── dockerfile # cezerin2-admin
+dockerfile ├── cezerin2-store # clone cezerin2-store repo │ ├── dockerfile #
+cezerin2-store dockerfile │ └── docker-entrypoint.sh # cezerin2-store
+docker-entrypoint.sh ├── proxy # New folder for proxy │ └── dockerfile # proxy
+dockerfile └── docker-compose.yml # Tools and utilities
 
 [cezerin2 docker-compose](./cezerin2-docker-compose.md)

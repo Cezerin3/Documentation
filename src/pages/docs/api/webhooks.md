@@ -1,6 +1,7 @@
 ---
 name: Webhooks
 route: /docs/api/webhooks
+menu: API
 ---
 
 # Webhooks

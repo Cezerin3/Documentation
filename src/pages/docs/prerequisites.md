@@ -1,6 +1,7 @@
 ---
 name: Prerequisites
 route: /prerequisites
+menu: Installation Guides
 ---
 
 ### Prerequisites

@@ -1,6 +1,7 @@
 ---
 name: Cloudflare
 route: /docs/deploy/cloudflare
+menu: Deploy on Web
 ---
 
 ## Setup domain with CloudFlare
