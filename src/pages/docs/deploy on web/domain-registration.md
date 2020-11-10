@@ -1,6 +1,7 @@
 ---
 name: Domain Registration
 route: /docs/deploy/domain-registration
+menu: Deploy on Web
 ---
 
 ## Register domain

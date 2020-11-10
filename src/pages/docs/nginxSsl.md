@@ -1,6 +1,7 @@
 ---
 name: Nginx SSL
 route: /docs/nginx-ssl
+menu: Single Instance
 ---
 
 ```nginx

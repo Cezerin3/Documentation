@@ -1,6 +1,7 @@
 ---
 name: Redirects
 route: /docs/api/setup-database
+menu: API
 ---
 
 # Redirects

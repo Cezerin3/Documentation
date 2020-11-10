@@ -1,6 +1,7 @@
 ---
 name: Help and Support
 route: /docs/help-and-support
+menu: Help
 ---
 
 ### Help and Support

@@ -1,6 +1,7 @@
 ---
 name: Nginx
 route: /docs/deploy/nginx
+menu: Deploy on Web
 ---
 
 ## Run Nginx

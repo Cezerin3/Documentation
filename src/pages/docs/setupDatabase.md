@@ -1,6 +1,7 @@
 ---
 name: Setup Database
 route: /docs/setup-database
+menu: Installation Guides
 ---
 
 # Database

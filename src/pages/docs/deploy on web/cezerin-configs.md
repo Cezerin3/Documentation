@@ -1,6 +1,7 @@
 ---
 name: Cezerin Configs
 route: /docs/deploy/cezerin-configs
+menu: Deploy on Web
 ---
 
 ## Cezerin configs changes:

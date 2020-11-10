@@ -1,6 +1,7 @@
 ---
 name: Products
 route: /docs/api/products
+menu: API
 ---
 
 # Products

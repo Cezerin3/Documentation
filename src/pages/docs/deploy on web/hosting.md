@@ -1,6 +1,7 @@
 ---
 name: Hosting
 route: /docs/deploy/hosting
+menu: Deploy on Web
 ---
 
 ## Hosting

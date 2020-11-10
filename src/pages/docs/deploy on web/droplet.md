@@ -1,6 +1,7 @@
 ---
 name: Droplet
 route: /docs/deploy/droplet
+menu: Deploy on Web
 ---
 
 ## Create droplet

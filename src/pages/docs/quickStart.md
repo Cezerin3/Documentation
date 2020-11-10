@@ -1,6 +1,7 @@
 ---
 name: Quick Start
 route: /docs/quick-start
+menu: Getting Started
 ---
 
 Download from: https://github.com/Cezerin3/Documentation/raw/main/src/cezerin3.zip

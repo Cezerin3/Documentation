@@ -1,6 +1,7 @@
 ---
 name: Product Categories
 route: /docs/api/product-categories
+menu: API
 ---
 
 # Product Categories

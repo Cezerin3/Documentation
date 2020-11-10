@@ -1,6 +1,7 @@
 ---
 name: documentation
 route: /docs
+menu: Getting Started
 ---
 
 <p align="center">

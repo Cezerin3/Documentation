@@ -1,6 +1,7 @@
 ---
 name: Product Import
 route: /docs/api/product-import
+menu: API
 ---
 
 # Product Import

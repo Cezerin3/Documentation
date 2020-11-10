@@ -1,6 +1,7 @@
 ---
 name: Using Source code
 route: /docs/using-source-code
+menu: Installation Guides
 ---
 
 ### Using Source code

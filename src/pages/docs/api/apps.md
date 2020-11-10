@@ -1,6 +1,7 @@
 ---
 name: Apps
 route: /docs/api/apps
+menu: API
 ---
 
 # Apps

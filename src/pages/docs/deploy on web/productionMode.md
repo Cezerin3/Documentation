@@ -1,6 +1,7 @@
 ---
 name: Production Mode
 route: /docs/deploy/production-mode
+menu: Deploy on Web
 ---
 
 ## Turn off Developer Mode

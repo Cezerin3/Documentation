@@ -1,6 +1,7 @@
 ---
 name: FAQ
 route: /docs/faq
+menu: Help
 ---
 
 ## FAQ

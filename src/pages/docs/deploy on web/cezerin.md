@@ -1,6 +1,7 @@
 ---
 name: cezerin
 route: /docs/deploy/cezerin
+menu: Deploy on Web
 ---
 
 ## Install and Run Cezerin

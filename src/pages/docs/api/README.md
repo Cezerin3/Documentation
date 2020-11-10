@@ -1,6 +1,7 @@
 ---
 name: API Reference
 route: /docs/api
+menu: Getting Started
 ---
 
 # API Reference

@@ -1,6 +1,7 @@
 ---
 name: Deploy SSL
-route: /docs/deploy/ssl
+route: /docs/deploy/
+menu: Deploy on Web
 ---
 
 ## Create droplet

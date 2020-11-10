@@ -1,6 +1,7 @@
 ---
 name: Overview
 route: /docs/overview
+menu: Getting Started
 ---
 
 <p align="center">

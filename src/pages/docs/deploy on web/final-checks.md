@@ -1,6 +1,7 @@
 ---
 name: final-checks
 route: /docs/deploy/final-checks
+menu: Deploy on Web
 ---
 
 ## Final checks

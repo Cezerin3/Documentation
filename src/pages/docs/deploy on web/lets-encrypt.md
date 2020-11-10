@@ -1,6 +1,7 @@
 ---
 name: SSL Certificate
 route: /docs/deploy/lets-encrypt
+menu: Deploy on Web
 ---
 
 ## Setup Let's Encrypt SSL Certificate

@@ -1,6 +1,7 @@
 ---
 name: HowTos
 route: /docs/howtos
+menu: Help
 ---
 
 ## HowTos

@@ -1,6 +1,7 @@
 ---
 name: Proxy Nginx
 route: /docs/proxy-nginx
+menu: Single Instance
 ---
 
 # Single Instance cezerin3-proxy nginx config

@@ -1,6 +1,7 @@
 ---
 name: Docker Compose
 route: /docs/docker-compose
+menu: Single Instance
 ---
 
 # Single Instance cezerin3 dockerfile and docker-entrypoint.sh

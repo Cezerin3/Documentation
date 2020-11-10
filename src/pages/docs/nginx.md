@@ -1,6 +1,7 @@
 ---
 name: Run Nginx
 route: /docs/nginx
+menu: Single Instance
 ---
 
 ```nginx

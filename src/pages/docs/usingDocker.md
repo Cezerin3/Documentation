@@ -1,6 +1,7 @@
 ---
 name: Docker
 route: /docs/using-docker
+menu: Installation Guides
 ---
 
 # Getting Started with Docker

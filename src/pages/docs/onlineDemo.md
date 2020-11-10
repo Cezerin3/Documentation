@@ -1,6 +1,7 @@
 ---
 name: Online Demo
 route: /docs/online-demo
+menu: Getting Started
 ---
 
 ## Online Demo

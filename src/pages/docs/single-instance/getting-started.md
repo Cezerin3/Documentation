@@ -1,6 +1,7 @@
 ---
 name: Getting Started
 route: /docs/getting-started
+menu: Getting Started
 ---
 
 # Getting Started with Single Instance

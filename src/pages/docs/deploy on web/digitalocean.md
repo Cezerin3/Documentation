@@ -1,6 +1,7 @@
 ---
 name: digitalocean
 route: /docs/deploy/digitalocean
+menu: Deploy on Web
 ---
 
 ## Setup domain with DigitalOcean DNS
