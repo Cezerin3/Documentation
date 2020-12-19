@@ -36,7 +36,9 @@ module.exports = {
     // sitemap
     `gatsby-plugin-sitemap`,
     // Robots.txt
-    "gatsby-plugin-robots-txt",
+    `gatsby-plugin-robots-txt`,
+    // sass/scss
+    `gatsby-plugin-sass`,
     // Page Load screen
     {
       resolve: `gatsby-plugin-nprogress`,
