@@ -1,8 +1,6 @@
 import { graphql, Link, PageProps } from "gatsby"
 import React, { FC } from "react"
-import Image from "../components/image"
 import Layout from "../components/layout"
-import "../components/pages/home/index.css"
 import SEO from "../components/seo"
 
 interface DataProps {
@@ -14,9 +12,6 @@ interface DataProps {
 const IndexPage: FC<PageProps<DataProps>> = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
     <h1>Cezerin3 - ReactJS eCommerce platform. React Shopping Cart.</h1>
     <Link to="/docs">Go to our docs...</Link>
     <p>
