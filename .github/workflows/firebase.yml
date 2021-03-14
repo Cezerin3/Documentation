@@ -25,7 +25,7 @@ jobs:
       #- run: npm ci
       - run: yarn
       - run: yarn build #--if-present
-      #- run: npm run test
+      #- run: yarn test
       #  env:
       #    CI: true
       - name: Firebase GitHub Action
