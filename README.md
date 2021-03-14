@@ -13,9 +13,9 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 ## 🚀 Quick start
 
-Download: https://github.com/Cezerin3/Documentation/raw/main/src/cezerin3.zip
+Download: https://github.com/Cezerin3/Store/archive/main.zip
 Unzip
-Sure to have node v12, yarn and mongodb locally
+Sure to have node v12-14, yarn and mongodb locally
 double click on start.sh......
 
 1.  **Start developing.**
@@ -71,7 +71,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 9.  **`LICENSE`**: This Cezerin3 docs is licensed under the Unlicense. This means that you can see this file as a placeholder and replace it with your own license.
 
-10. **`package.lock`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+10. **`yarn.lock`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
 11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
@@ -84,3 +84,9 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+
+## 💫 Deploy
+
+[Build, Deploy, and Host On The Only Cloud Built For Gatsby](https://www.gatsbyjs.com/cloud/)
+
+Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.

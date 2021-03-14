@@ -1,5 +1,5 @@
-import { graphql, Link, useStaticQuery } from "gatsby"
-import Img from "gatsby-image"
+import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import {
   MDBCol,
   MDBCollapse,
@@ -14,29 +14,14 @@ import React, { useState } from "react"
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false)
-  const data = useStaticQuery(graphql`
-    {
-      logo: file(relativePath: { eq: "cezerin-icon.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
-
-  const toggleCollapse = () => {
-    setIsOpen(!isOpen)
-  }
 
   return (
     <MDBNavbar color="blue" dark expand="md">
       <MDBNavbarBrand>
         <MDBRow>
           <MDBCol>
-            <Img
-              fluid={data.logo.childImageSharp.fluid}
+            <StaticImage
+              src="../images/cezerin-icon.png"
               alt="logo"
               className="w-50 p-3"
             />
@@ -50,7 +35,7 @@ const NavBar = () => {
           </MDBCol>
         </MDBRow>
       </MDBNavbarBrand>
-      <MDBNavbarToggler onClick={toggleCollapse} />
+      <MDBNavbarToggler onClick={() => setIsOpen(!isOpen)} />
       <MDBCollapse id="navbarCollapse3" isOpen={isOpen} navbar>
         <MDBNavbarNav left></MDBNavbarNav>
         <MDBNavbarNav right>
