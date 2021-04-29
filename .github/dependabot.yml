@@ -1,0 +1,28 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 2
+  ignore:
+  - dependency-name: gatsby-plugin-nprogress
+    versions:
+    - 3.1.0
+    - 3.2.0
+    - 3.3.0
+  - dependency-name: gatsby-plugin-google-gtag
+    versions:
+    - 3.1.0
+    - 3.2.0
+    - 3.3.0
+  - dependency-name: gatsby-image
+    versions:
+    - 2.11.0
+    - 3.0.0
+  - dependency-name: gatsby-source-filesystem
+    versions:
+    - 2.10.0
+  - dependency-name: gatsby-plugin-manifest
+    versions:
+    - 2.11.0
